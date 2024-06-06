@@ -22,7 +22,7 @@ let when = [
   "while i was taking a shower"
 ];
 
-const random = arr => {
+const randomQuote = arr => {
   let randomNum = Math.floor(Math.random() * arr.length);
   return arr[randomNum];
 };
